@@ -4,7 +4,7 @@
 
 # Informações do proprietário
 owner: contato-lifetimepc
-repo: status
+repo: upptime-status
 
 # Sites e APIs para monitorar
 sites:
@@ -97,3 +97,4 @@ workflowSchedule:
 commitPrefixStatusUp: "✅"
 commitPrefixStatusDown: "🚨"
 commitPrefixStatusDegraded: "⚠️"
+
