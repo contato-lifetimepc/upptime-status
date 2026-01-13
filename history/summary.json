@@ -23,11 +23,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/lifetrial.lifetimepc.com.br.ico",
     "slug": "life-trial-api",
     "status": "down",
-    "uptime": "20.83%",
-    "uptimeDay": "24.79%",
-    "uptimeWeek": "20.83%",
-    "uptimeMonth": "20.83%",
-    "uptimeYear": "20.83%",
+    "uptime": "21.86%",
+    "uptimeDay": "26.30%",
+    "uptimeWeek": "21.86%",
+    "uptimeMonth": "21.86%",
+    "uptimeYear": "21.86%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -55,7 +55,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-01-13": 1319,
+      "2026-01-13": 1341,
       "2026-01-12": 337
     }
   },
@@ -94,7 +94,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-01-13": 1319,
+      "2026-01-13": 1341,
       "2026-01-12": 337
     }
   },
@@ -104,18 +104,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/lifetimepc.com.br.ico",
     "slug": "life-time-pesquisa-clinica",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "98.70%",
+    "uptimeDay": "98.50%",
+    "uptimeWeek": "98.70%",
+    "uptimeMonth": "98.70%",
+    "uptimeYear": "98.70%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-01-13": 0
+      "2026-01-13": 22
     }
   }
 ]
