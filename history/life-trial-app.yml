@@ -1,7 +1,7 @@
 url: https://lifetrial.lifetimepc.com.br
-status: up
-code: 200
-responseTime: 982
-lastUpdated: 2026-01-18T10:43:09.025Z
+status: down
+code: 502
+responseTime: 15095
+lastUpdated: 2026-01-18T17:59:41.339Z
 startTime: 2026-01-12T18:37:31.163Z
 generator: Upptime <https://github.com/upptime/upptime>
