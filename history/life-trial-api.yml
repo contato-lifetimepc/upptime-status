@@ -1,7 +1,7 @@
 url: https://lifetrial.lifetimepc.com.br/api/health
-status: down
-code: 502
-responseTime: 3225
-lastUpdated: 2026-01-26T21:25:06.705Z
+status: up
+code: 200
+responseTime: 747
+lastUpdated: 2026-01-26T21:43:33.234Z
 startTime: 2026-01-12T18:37:32.518Z
 generator: Upptime <https://github.com/upptime/upptime>
