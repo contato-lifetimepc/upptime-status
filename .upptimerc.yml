@@ -36,7 +36,28 @@ sites:
   # ============ SERVIÇOS AUXILIARES ============
   - name: LifeTime Pesquisa Clínica
     url: https://lifetimepc.com.br
-    
+
+  # ============ PRODUTOS ADICIONADOS 13/08/2026 ============
+  # Estavam em producao confirmada e fora de qualquer monitoramento.
+  # EvolutionAPI e n8n sao dependencia transversal: se caem, todo disparo de
+  # WhatsApp e todo funil de captacao de lead do ecossistema para junto.
+  - name: EvolutionAPI (gateway WhatsApp)
+    url: https://evolution.lifetimepc.com.br
+
+  - name: n8n (automacao de leads)
+    url: https://n8n.lifetimepc.com.br
+
+  - name: LifeMatch
+    url: https://match.lifetimepc.com.br/health
+    expectedStatusCodes:
+      - 200
+
+  - name: LifeDCT
+    url: https://lifedct.lifetimepc.com.br
+
+  - name: LifeScan
+    url: https://scan.lifetimepc.com.br
+
 # Configurações de status
 status-website:
   cname: status.lifetimepc.com.br
@@ -64,13 +85,23 @@ i18n:
   overallUptimeTitle: Uptime nos últimos 90 dias
   liveStatus: Status ao vivo
   
-# Notificações (opcional - configure depois)
+# Notificacoes — NENHUMA configurada (13/08/2026). Monitoramento sem alerta
+# e decorativo: mesmo com o cron rodando, uma queda so gera um commit
+# automatico neste repo, que ninguem olha. Para ativar o Slack:
+#   1. Criar um Incoming Webhook no Slack (app.slack.com/apps -> Incoming
+#      Webhooks), copiar a URL.
+#   2. Nas configuracoes deste repo no GitHub: Settings > Secrets and
+#      variables > Actions > New repository secret, nome SLACK_WEBHOOK_URL,
+#      valor a URL do passo 1.
+#   3. Descomentar o bloco `- type: slack` abaixo.
+# Sem o secret configurado, NAO descomentar — a Action de notificacao falha
+# procurando uma variavel que nao existe.
 notifications:
   # Slack
   # - type: slack
   #   channel: monitoring
   #   url: $SLACK_WEBHOOK_URL
-  
+
   # Email (via SMTP)
   # - type: email
   #   to: suporte@lifetimepc.com.br
