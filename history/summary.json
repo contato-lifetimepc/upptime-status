@@ -5,11 +5,11 @@
     "icon": "https://lifetrial.lifetimepc.com.br/logo.png",
     "slug": "life-trial-app",
     "status": "down",
-    "uptime": "98.75%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "98.61%",
-    "uptimeYear": "98.75%",
+    "uptime": "98.74%",
+    "uptimeDay": "97.19%",
+    "uptimeWeek": "99.60%",
+    "uptimeMonth": "98.52%",
+    "uptimeYear": "98.74%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -32,7 +32,7 @@
       "2026-06-08": 382,
       "2026-06-07": 1328,
       "2026-07-28": 609,
-      "2026-08-18": 1
+      "2026-08-18": 40
     }
   },
   {
@@ -41,11 +41,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/lifetrial.lifetimepc.com.br.ico",
     "slug": "life-trial-api",
     "status": "down",
-    "uptime": "98.88%",
-    "uptimeDay": "99.93%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "98.63%",
-    "uptimeYear": "98.88%",
+    "uptime": "98.87%",
+    "uptimeDay": "97.21%",
+    "uptimeWeek": "99.60%",
+    "uptimeMonth": "98.54%",
+    "uptimeYear": "98.87%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -68,7 +68,7 @@
       "2026-05-05": 107,
       "2026-06-07": 257,
       "2026-07-28": 600,
-      "2026-08-18": 1
+      "2026-08-18": 40
     }
   },
   {
@@ -88,7 +88,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-08-18": 1314,
+      "2026-08-18": 1354,
       "2026-08-17": 1440,
       "2026-08-16": 1440,
       "2026-08-15": 1440,
@@ -344,7 +344,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-08-18": 1314,
+      "2026-08-18": 1354,
       "2026-08-17": 1440,
       "2026-08-16": 1440,
       "2026-08-15": 1440,
@@ -660,7 +660,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-08-18": 1314,
+      "2026-08-18": 1354,
       "2026-08-17": 1440,
       "2026-08-16": 1440,
       "2026-08-15": 1440,
