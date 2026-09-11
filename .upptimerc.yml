@@ -6,6 +6,12 @@
 owner: contato-lifetimepc
 repo: upptime-status
 
+# Alerta a uma PESSOA sem segredo novo (10/09/2026, tarefa LM-56 / contrato IVOC):
+# o Upptime atribui toda issue de queda a estas contas e o GitHub envia e-mail
+# ao atribuido. Nao depende de Slack, SMTP nem de secret.
+assignees:
+  - contato-lifetimepc
+
 # Sites e APIs para monitorar
 sites:
   # ============ LIFETRIAL ============
@@ -47,10 +53,14 @@ sites:
   - name: n8n (automacao de leads)
     url: https://n8n.lifetimepc.com.br
 
+  # Slug gerado pelo Upptime: "life-match" (history/life-match.yml, issues com
+  # label life-match). Monitorado desde 13/08/2026; maxResponseTime marca
+  # performance degradada acima de 5s sem abrir incidente de queda.
   - name: LifeMatch
     url: https://match.lifetimepc.com.br/health
     expectedStatusCodes:
       - 200
+    maxResponseTime: 5000
 
   - name: LifeDCT
     url: https://lifedct.lifetimepc.com.br
@@ -85,9 +95,12 @@ i18n:
   overallUptimeTitle: Uptime nos últimos 90 dias
   liveStatus: Status ao vivo
   
-# Notificacoes — NENHUMA configurada (13/08/2026). Monitoramento sem alerta
-# e decorativo: mesmo com o cron rodando, uma queda so gera um commit
-# automatico neste repo, que ninguem olha. Para ativar o Slack:
+# Notificacoes — NENHUM canal externo (Slack/Email) configurado. Em 13/08/2026
+# o monitoramento era decorativo: uma queda so gerava commit automatico neste
+# repo, que ninguem olha. Desde 10/09/2026 (LM-56) o alerta chega a uma pessoa
+# por ISSUE ATRIBUIDA: o bloco `assignees` no topo faz o Upptime atribuir cada
+# issue de queda a contato-lifetimepc, e o GitHub envia e-mail ao atribuido.
+# Isso nao precisa de secret. Para ativar o Slack como canal adicional:
 #   1. Criar um Incoming Webhook no Slack (app.slack.com/apps -> Incoming
 #      Webhooks), copiar a URL.
 #   2. Nas configuracoes deste repo no GitHub: Settings > Secrets and
